@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/pendaftaran-pasien',[PatientController::class,"Patientregister"]);
+Route::get('/pendaftaran-klinik',[PatientController::class,"Clinicopts"]);
